@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `teacher_data` (
   UNIQUE KEY `teacher_data` (`email`)
 )
 
-
+//change by Troyee
 
 CREATE TABLE IF NOT EXISTS `data` (
   `id` int(8) NOT NULL AUTO_INCREMENT,
