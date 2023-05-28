@@ -57,19 +57,6 @@ CREATE TABLE course (
 )
 
 
-Insert into $course(roll) Values('B')
-
-    $result =mysqli_query($con, "SELECT * FROM $course1 WHERE id=1");
-    $row=mysqli_fetch_assoc($result);
-    echo $row['roll']; 
-
-UPDATE `data` SET `description`='1'
-
-
-  $res2 = mysqli_query($con,"CREATE TABLE $course (`id` int(8) NOT NULL AUTO_INCREMENT, `roll` varchar(1000),`marks` varchar(1000),`active` varchar(255),PRIMARY KEY (`id`) )");
-  $res3= mysqli_query($con,"INSERT INTO $course (`roll`) VALUES('$section')");
-
-
 
 
 
