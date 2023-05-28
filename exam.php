@@ -27,7 +27,7 @@
 	   			border: 5px solid ;
 				border-color:#214989;
 	   		    padding: 30px;
-	    		margin: 10px;
+	    		margin: 100px;
 	    		text-align: left;
 	    		background-color: lightyellow;
 

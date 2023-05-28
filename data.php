@@ -11,6 +11,8 @@ CREATE TABLE IF NOT EXISTS `student_data` (
 )
 
 
+
+
 CREATE TABLE IF NOT EXISTS `teacher_data` (
   `id` int(8) NOT NULL AUTO_INCREMENT,
   `name` varchar(255),
@@ -67,18 +69,6 @@ UPDATE `data` SET `description`='1'
   $res2 = mysqli_query($con,"CREATE TABLE $course (`id` int(8) NOT NULL AUTO_INCREMENT, `roll` varchar(1000),`marks` varchar(1000),`active` varchar(255),PRIMARY KEY (`id`) )");
   $res3= mysqli_query($con,"INSERT INTO $course (`roll`) VALUES('$section')");
 
-
-CREATE TABLE $table (`id` int(8)
- NOT NULL AUTO_INCREMENT,
-  `course` varchar(1000),
-  `marks` varchar(1000),
-  PRIMARY KEY (`id`) )
-
-
-
-
-
-alter table data add course varchar(100)
 
 
 
