@@ -10,7 +10,7 @@ session_start();
 
 		case "add":
 
-			
+		//	
 
 
 				$result = mysqli_query($con, "SELECT * FROM data WHERE id='" . $_GET["id"] . "'");
