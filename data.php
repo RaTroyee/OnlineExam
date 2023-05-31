@@ -12,7 +12,6 @@ CREATE TABLE IF NOT EXISTS `student_data` (
 
 
 
-
 CREATE TABLE IF NOT EXISTS `teacher_data` (
   `id` int(8) NOT NULL AUTO_INCREMENT,
   `name` varchar(255),
